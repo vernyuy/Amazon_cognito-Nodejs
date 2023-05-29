@@ -1,0 +1,21 @@
+{
+  "name": "cognito-api",
+  "version": "1.0.0",
+  "description": "Authentication api using nodejs and amazon cognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vernyuy",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.2.0",
+    "aws-sdk": "^2.1385.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jwk-to-pem": "^2.0.5",
+    "node-fetch": "^3.3.1",
+    "request": "^2.88.2"
+  }
+}
